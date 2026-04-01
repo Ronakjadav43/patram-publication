@@ -233,7 +233,7 @@ export default function Main() {
             "--qode-gutter-custom-1200": "20px",
             "--qode-gutter-custom-1512": "20px",
             "--qode-gutter-custom-880": "20px",
-          }}>
+         } as React.CSSProperties}>
           <div className="qodef-grid-inner">
             <div className="qodef-grid-masonry-sizer" />
             <div className="qodef-e qodef-grid-item product-category product first">
@@ -406,7 +406,7 @@ export default function Main() {
             "--qode-vertical-gutter-custom-1200": "30px",
             "--qode-vertical-gutter-custom-1512": "20px",
             "--qode-vertical-gutter-custom-880": "49px",
-          }}>
+         } as React.CSSProperties}>
           <div className="qodef-grid-inner">
             <div className="qodef-e qodef-grid-item qodef-item--full product-category product first">
               <div className="qodef-e-inner">
@@ -1192,7 +1192,7 @@ export default function Main() {
                     alt="a"
                     className="wp-image-1228"
                     decoding="async"
-                    fetchpriority="high"
+                    // fetchpriority="high"
                     height="623"
                     sizes="(max-width: 1024px) 100vw, 1024px"
                     src="wp-content/uploads/2024/08/aestheta-blog-sidebar-img-1024x623.jpg"
@@ -1220,7 +1220,7 @@ export default function Main() {
                 style={{
                   "--qode-gutter-custom": "30px",
                   "--qode-gutter-custom-880": "20px",
-                }}>
+                } as React.CSSProperties}>
                 <ul className="qodef-grid-inner">
                   <li className="qodef-e qodef-grid-item qodef-item--full product type-product post-84 status-publish first instock product_cat-design product_cat-paint product_cat-print product_cat-prints product_tag-artistic product_tag-creative has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
                     <div className="qodef-e-inner">
@@ -1268,7 +1268,7 @@ export default function Main() {
                               href="index9901.html?add_to_wishlist=84"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -1300,7 +1300,7 @@ export default function Main() {
                               href="indexdc64.html?quick_view_button=84"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -1546,7 +1546,7 @@ export default function Main() {
                               href="index16ce.html?add_to_wishlist=122"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -1578,7 +1578,7 @@ export default function Main() {
                               href="index2132.html?quick_view_button=122"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -1728,7 +1728,7 @@ export default function Main() {
                               href="indexc468.html?add_to_wishlist=182"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -1760,7 +1760,7 @@ export default function Main() {
                               href="index6881.html?quick_view_button=182"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -1904,7 +1904,7 @@ export default function Main() {
                               href="index280b.html?add_to_wishlist=197"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -1936,7 +1936,7 @@ export default function Main() {
                               href="index210a.html?quick_view_button=197"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -2094,7 +2094,7 @@ export default function Main() {
                               href="indexf4da.html?add_to_wishlist=209"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -2126,7 +2126,7 @@ export default function Main() {
                               href="indexf7de.html?quick_view_button=209"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -2278,7 +2278,7 @@ export default function Main() {
                               href="indexc848.html?add_to_wishlist=251"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -2310,7 +2310,7 @@ export default function Main() {
                               href="index0b2a.html?quick_view_button=251"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -2462,7 +2462,7 @@ export default function Main() {
                               href="index5bde.html?add_to_wishlist=2059"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -2494,7 +2494,7 @@ export default function Main() {
                               href="indexcb00.html?quick_view_button=2059"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -2653,7 +2653,7 @@ export default function Main() {
                               href="index5810.html?add_to_wishlist=2071"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -2685,7 +2685,7 @@ export default function Main() {
                               href="indexb673.html?quick_view_button=2071"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -2843,7 +2843,7 @@ export default function Main() {
                               href="index74ce.html?add_to_wishlist=2074"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qwfw-m-spinner qwfw-spinner-icon">
                                 <svg
                                   viewBox="0 0 512 512"
@@ -2875,7 +2875,7 @@ export default function Main() {
                               href="index3606.html?quick_view_button=2074"
                               rel="noopener noreferrer"
                               role="button"
-                              tabIndex="0">
+                              tabIndex={0}>
                               <span className="qqvfw-m-spinner">
                                 <svg
                                   className="qqvfw-svg--spinner"
@@ -3038,7 +3038,7 @@ export default function Main() {
             className="qodef-shortcode qodef-m qodef-woo-shortcode qodef-woo-product-artist-list qodef-item-layout--standard qodef-grid qodef-layout--columns qodef-vertical-gutter--custom qodef-col-num--4 qodef-item-layout--standard qodef-responsive--custom qodef-col-num--1512--4 qodef-col-num--1368--4 qodef-col-num--1200--3 qodef-col-num--1024--3 qodef-col-num--880--2 qodef-col-num--680--1"
             style={{
               "--qode-vertical-gutter-custom-880": "15px",
-            }}>
+           } as React.CSSProperties}>
             <div className="qodef-grid-inner">
               <div className="qodef-e qodef-grid-item product-category product first">
                 <div className="qodef-e-inner">
@@ -3551,7 +3551,7 @@ export default function Main() {
             "--qode-vertical-gutter-custom-1200": "20px",
             "--qode-vertical-gutter-custom-1512": "20px",
             "--qode-vertical-gutter-custom-880": "20px",
-          }}>
+         } as React.CSSProperties}>
           <div className="swiper-wrapper">
             <article className="qodef-e qodef-blog-item swiper-slide qodef-item--full post-3097 post type-post status-publish format-standard has-post-thumbnail hentry category-face-masks category-vitamins tag-client tag-digital-marketing">
               <div className="qodef-e-inner">
@@ -3874,7 +3874,7 @@ export default function Main() {
             style={{
               "--qode-gutter-custom": "20px",
               "--qode-gutter-custom-880": "20px",
-            }}>
+           } as React.CSSProperties}>
             <h3 className="qodef-e-static-title">Last chance offer</h3>
             <ul className="qodef-grid-inner">
               <li className="qodef-e qodef-grid-item qodef-item--full product type-product post-4111 status-publish first instock product_cat-traditional-art product_tag-artistic product_tag-font has-post-thumbnail shipping-taxable purchasable product-type-simple">
@@ -3923,7 +3923,7 @@ export default function Main() {
                           href="index9bd4.html?add_to_wishlist=4111"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -3955,7 +3955,7 @@ export default function Main() {
                           href="index8d98.html?quick_view_button=4111"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -4073,7 +4073,7 @@ export default function Main() {
                           href="index4876.html?add_to_wishlist=4114"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -4105,7 +4105,7 @@ export default function Main() {
                           href="indexca42.html?quick_view_button=4114"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -4229,7 +4229,7 @@ export default function Main() {
                           href="indexfe38.html?add_to_wishlist=4118"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -4261,7 +4261,7 @@ export default function Main() {
                           href="index0d94.html?quick_view_button=4118"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -4391,7 +4391,7 @@ export default function Main() {
                           href="index0546.html?add_to_wishlist=6140"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -4423,7 +4423,7 @@ export default function Main() {
                           href="indexdb48.html?quick_view_button=4125"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -4655,7 +4655,7 @@ export default function Main() {
                           href="index5d24.html?add_to_wishlist=4128"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -4687,7 +4687,7 @@ export default function Main() {
                           href="indexf9d8.html?quick_view_button=4128"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -5290,7 +5290,7 @@ export default function Main() {
                     "--qode-banner-content-width-680": "61%",
                     "--qode-banner-title-margin-1200": "0px 0px 10px",
                     "--qode-banner-title-margin-1512": "0px 0px 10px",
-                  }}>
+                  } as React.CSSProperties}>
                   <span className="qodef-m-price">
                     <span>34</span>
                     <sup>$</sup>
@@ -5333,7 +5333,7 @@ export default function Main() {
                     "--qode-banner-content-width": "full",
                     "--qode-banner-title-margin-1200": "18px 0px",
                     backgroundColor: "#02010100",
-                  }}>
+                  } as React.CSSProperties}>
                   <h3 className="qodef-m-title">
                     Design That
                     <br /> Boost Your Brand
@@ -5345,7 +5345,8 @@ export default function Main() {
                       style={{
                         "--qode-button-bg-color": "#FFFFFF",
                         "--qode-button-color": "#000000",
-                      }}
+                      
+                     } as React.CSSProperties}
                       target="_self">
                       <span className="qodef-m-text" data-title="Shop now">
                         Shop now
@@ -5389,7 +5390,7 @@ export default function Main() {
                     "--qode-banner-content-width": "full",
                     "--qode-banner-title-margin-1200": "18px 0px",
                     backgroundColor: "#FFFFFF00",
-                  }}>
+                 } as React.CSSProperties}>
                   <h3 className="qodef-m-title">
                     Aesthetics into
                     <br /> Strategy
@@ -5401,7 +5402,7 @@ export default function Main() {
                       style={{
                         "--qode-button-bg-color": "#FFFFFF",
                         "--qode-button-color": "#000000",
-                      }}
+                      } as React.CSSProperties}
                       target="_self">
                       <span className="qodef-m-text" data-title="Shop now">
                         Shop now
@@ -5444,7 +5445,7 @@ export default function Main() {
                     "--qode-banner-title-margin-1200": "0px 0px 10px",
                     "--qode-banner-title-margin-1512": "0px 0px 10px",
                     backgroundColor: "#539ED8",
-                  }}>
+                 } as React.CSSProperties}>
                   <span className="qodef-m-price">
                     <span>34</span>
                     <sup>$</sup>
@@ -5580,7 +5581,7 @@ export default function Main() {
                           href="index6547.html?add_to_wishlist=3573"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -5612,7 +5613,7 @@ export default function Main() {
                           href="index0b00.html?quick_view_button=3573"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -5748,7 +5749,7 @@ export default function Main() {
                           href="index5d2a.html?add_to_wishlist=3576"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -5780,7 +5781,7 @@ export default function Main() {
                           href="index1f90.html?quick_view_button=3576"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -5922,7 +5923,7 @@ export default function Main() {
                           href="index4185.html?add_to_wishlist=3586"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -5954,7 +5955,7 @@ export default function Main() {
                           href="indexce70.html?quick_view_button=3586"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -6084,7 +6085,7 @@ export default function Main() {
                           href="index2df4.html?add_to_wishlist=3590"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -6116,7 +6117,7 @@ export default function Main() {
                           href="indexeeac.html?quick_view_button=3590"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -6252,7 +6253,7 @@ export default function Main() {
                           href="index9898.html?add_to_wishlist=3593"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -6284,7 +6285,7 @@ export default function Main() {
                           href="index588e.html?quick_view_button=3593"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -6423,7 +6424,7 @@ export default function Main() {
                           href="indexa3ce.html?add_to_wishlist=3606"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -6455,7 +6456,7 @@ export default function Main() {
                           href="index8a99.html?quick_view_button=3606"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -6585,7 +6586,7 @@ export default function Main() {
                           href="indexba38.html?add_to_wishlist=3609"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -6617,7 +6618,7 @@ export default function Main() {
                           href="indexe5a2.html?quick_view_button=3609"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"
@@ -6747,7 +6748,7 @@ export default function Main() {
                           href="indexda70.html?add_to_wishlist=3612"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qwfw-m-spinner qwfw-spinner-icon">
                             <svg
                               viewBox="0 0 512 512"
@@ -6779,7 +6780,7 @@ export default function Main() {
                           href="index17f0.html?quick_view_button=3612"
                           rel="noopener noreferrer"
                           role="button"
-                          tabIndex="0">
+                          tabIndex={0}>
                           <span className="qqvfw-m-spinner">
                             <svg
                               className="qqvfw-svg--spinner"

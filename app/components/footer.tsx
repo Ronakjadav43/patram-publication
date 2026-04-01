@@ -382,7 +382,7 @@ export default function Footer() {
             "--qode-gutter-custom-1200": "15px",
             "--qode-gutter-custom-1512": "15px",
             "--qode-gutter-custom-880": "15px",
-          }}>
+          } as React.CSSProperties}>
           <div className="qodef-grid-inner">
             <div className="qodef-grid-item">
               <div
@@ -491,10 +491,10 @@ export default function Footer() {
                               aria-required="true"
                               className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
                               defaultValue=""
-                              maxLength="400"
+                              maxLength={400}
                               name="your-email"
                               placeholder="Your email"
-                              size="40"
+                              size={40}
                               type="email"
                             />
                           </span>
@@ -917,10 +917,10 @@ export default function Footer() {
                     aria-required="true"
                     className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
                     defaultValue=""
-                    maxLength="400"
+                    maxLength={400}
                     name="your-email"
                     placeholder="Your email"
-                    size="40"
+                    size={40}
                     type="email"
                   />
                 </span>

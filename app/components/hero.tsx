@@ -22,7 +22,7 @@ export default function Hero() {
           "--qode-gutter-custom-880": "20px",
           "--qode-pcl-content-padding": "46px 136px 48px",
           "--qode-pcl-content-padding-1368": "36px 76px 38px",
-        }}>
+        } as React.CSSProperties}>
         <div className="qodef-grid-inner">
           <div className="qodef-grid-masonry-sizer" />
           <div className="qodef-e qodef-grid-item qodef-item--huge-square product-category product first">
